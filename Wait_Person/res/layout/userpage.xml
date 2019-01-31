@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/RL_main"
+    android:background="#3e92d2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wait_person.UserPage" >
+    
+    
+    
+    
+    
+
+     <TextView
+         android:id="@+id/TV_Welcome"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/welcome"
+           android:layout_marginTop="20dp"
+             android:layout_centerHorizontal="true"
+             android:textColor="#FFFFFF"
+	        android:textAppearance="?android:attr/textAppearanceLarge" >
+
+    </TextView>
+
+
+  <ImageButton
+    android:id="@+id/IB_place"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="10dip"
+    android:src="@drawable/table"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/TV_Welcome"
+    android:layout_marginTop="20dp" />
+  
+  
+    <ImageButton
+    android:id="@+id/IB_order"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="10dip"
+    android:src="@drawable/plate"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/IB_place"
+    android:layout_marginTop="5dp" />
+    
+    <ImageButton
+    android:id="@+id/IB_pay"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="10dip"
+    android:src="@drawable/money"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/IB_order"
+    android:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/type2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IB_pay"
+        android:layout_marginTop="5dp"
+        android:text="@string/type2"
+            android:layout_centerHorizontal="true" />
+    
+</RelativeLayout>

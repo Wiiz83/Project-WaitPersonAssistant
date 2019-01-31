@@ -1,0 +1,4 @@
+To access the application, you need the details of the database's users :
+- Login : Liberty ; Password : pass
+- Login : Greenes ; Password : pass
+- Login : Market ; Password : pass
